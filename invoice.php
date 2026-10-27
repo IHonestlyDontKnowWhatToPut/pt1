@@ -38,7 +38,7 @@ ob_start();
             <div class="col-md-6 text-md-end">
                 <strong>Staff</strong><br>
                 Farah Izzati<br>
-                farah@smphotocards.com
+                farah@kookiesbinder.com
             </div>
         </div>
         <div class="table-responsive">
@@ -55,13 +55,13 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Karina - Armageddon</td>
-                        <td>$8.00</td>
+                        <td>Charizard ex</td>
+                        <td>$25.00</td>
                         <td>2</td>
-                        <td class="text-end">$16.00</td>
+                        <td class="text-end">$50.00</td>
                     </tr>
                 </tbody>
-                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$16.00</th></tr></tfoot>
+                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$50.00</th></tr></tfoot>
             </table>
         </div>
         <a href="orderdetails.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Details</a>

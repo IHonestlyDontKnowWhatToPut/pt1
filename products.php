@@ -132,15 +132,9 @@ ob_start();
                         <td>$25.00</td>
                         <td>Fire</td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
-                            </button>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
                     <tr>
@@ -149,15 +143,9 @@ ob_start();
                         <td>$18.00</td>
                         <td>Water</td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
-                            </button>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
                     <tr>
@@ -166,15 +154,9 @@ ob_start();
                         <td>$15.00</td>
                         <td>Grass</td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
-                            </button>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
                 </tbody>
