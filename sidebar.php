@@ -33,7 +33,7 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="staff.php" class="text-decoration-none text-white">
+              <a href="staffs.php" class="text-decoration-none text-white">
                 <i class="bi bi-person-badge-fill me-2"></i>
                 Staffs
               </a>
