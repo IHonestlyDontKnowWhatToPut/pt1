@@ -35,7 +35,7 @@ ob_start();
                 </div>
                 <div class="col-md-3">
                     <label for="order_date" class="form-label">Order Date <span class="text-danger" aria-hidden="true">*</span></label>
-                    <input name="order_date" id="order_date" type="date" class="form-control" value="" required>
+                    <input name="order_date" id="order_date" type="date" class="form-control" placeholder="Enter Order Date" value="" required>
                 </div>
                 <div class="col-md-3">
                     <label for="staff_num" class="form-label">Staff <span class="text-danger" aria-hidden="true">*</span></label>
@@ -110,10 +110,10 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
-                            <a href="invoice.php" class="btn btn-sm btn-success">
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
                                 <i class="bi bi-receipt"></i>
                             </a>
                             <a href="#" class="btn btn-sm btn-danger">
@@ -130,10 +130,10 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
-                            <a href="invoice.php" class="btn btn-sm btn-success">
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
                                 <i class="bi bi-receipt"></i>
                             </a>
                             <a href="#" class="btn btn-sm btn-danger">
@@ -150,10 +150,10 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
-                            <a href="invoice.php" class="btn btn-sm btn-success">
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
                                 <i class="bi bi-receipt"></i>
                             </a>
                             <a href="#" class="btn btn-sm btn-danger">
