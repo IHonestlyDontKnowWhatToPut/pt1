@@ -5,7 +5,7 @@ ob_start();
 <div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body">
         <h2 class="mb-1">Products</h2>
-        <p class="text-muted mb-0">Manage and track all SM Photocards</p>
+        <p class="text-muted mb-0">Manage and track all Pokemon Cards</p>
     </div>
 </div>
 
@@ -42,32 +42,34 @@ ob_start();
                     <input name="product_price" id="price" type="number" class="form-control" placeholder="Enter Price" value="" required min="0" step="0.01">
                 </div>
                 <div class="col-md-3">
-                    <label for="group" class="form-label">Group <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_group" id="group" class="form-select" required>
-                        <option value="">Select Group</option>
-                        <option value="NCT">NCT</option>
-                        <option value="AESPA">AESPA</option>
-                        <option value="Riize">Riize</option>
-                        <option value="Girls Generation">Girls Generation</option>
+                    <label for="product_type" class="form-label">Type <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_type" id="product_type" class="form-select" required>
+                        <option value="">Select Type</option>
+                        <option value="Fire">Fire</option>
+                        <option value="Water">Water</option>
+                        <option value="Grass">Grass</option>
+                        <option value="Electric">Electric</option>
+                        <option value="Psychic">Psychic</option>
                         <option value="Others">Others</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="card_type" class="form-label">Card Type <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="card_type" id="card_type" class="form-select" required>
-                        <option value="">Select Card Type</option>
-                        <option value="Album Photocard">Album Photocard</option>
-                        <option value="POB (Pre-Order Benefit)">POB (Pre-Order Benefit)</option>
-                        <option value="Lucky Draw">Lucky Draw</option>
-                        <option value="Fansign">Fansign</option>
-                        <option value="Season's Greeting">Season's Greeting</option>
+                    <label for="product_rarity" class="form-label">Rarity <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_rarity" id="product_rarity" class="form-select" required>
+                        <option value="">Select Rarity</option>
+                        <option value="Common">Common</option>
+                        <option value="Uncommon">Uncommon</option>
+                        <option value="Rare">Rare</option>
+                        <option value="Holo Rare">Holo Rare</option>
+                        <option value="Ultra Rare">Ultra Rare</option>
+                        <option value="Secret Rare">Secret Rare</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="member" class="form-label">Member <span class="text-danger" aria-hidden="true">*</span></label>
-                    <input name="product_member" id="member" type="text" class="form-control" placeholder="Enter Member Name" value="" required>
+                    <label for="pokemon_name" class="form-label">Pokemon Name <span class="text-danger" aria-hidden="true">*</span></label>
+                    <input name="pokemon_name" id="pokemon_name" type="text" class="form-control" placeholder="Enter Pokemon Name" value="" required>
                 </div>
                  
                 <div class="col-md-3">
@@ -106,7 +108,7 @@ ob_start();
                 <small class="text-muted">View and manage all products in the inventory</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 3 items</span>
             </div>
         </div>
  
@@ -119,16 +121,16 @@ ob_start();
                         <th>Product ID</th>
                         <th>Name</th>
                         <th>Price</th>
-                        <th>Group</th>
+                        <th>Type</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Karina - Armageddon</td>
-                        <td>$8.00</td>
-                        <td>Aespa</td>
+                        <td>Charizard ex</td>
+                        <td>$25.00</td>
+                        <td>Fire</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -142,7 +144,38 @@ ob_start();
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="5" class="text-center">No products found</td>
+                        <td>P002</td>
+                        <td>Blastoise ex</td>
+                        <td>$18.00</td>
+                        <td>Water</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P003</td>
+                        <td>Venusaur ex</td>
+                        <td>$15.00</td>
+                        <td>Grass</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
