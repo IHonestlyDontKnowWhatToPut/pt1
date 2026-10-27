@@ -49,6 +49,7 @@ ob_start();
                         <option value="AESPA">AESPA</option>
                         <option value="Riize">Riize</option>
                         <option value="Girls Generation">Girls Generation</option>
+                        <option value="Others">Others</option>
                     </select>
                 </div>
  
